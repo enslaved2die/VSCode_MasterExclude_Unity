@@ -1,4 +1,4 @@
-{    
+{
     "files.exclude": {
 
         "**/.git": true,
@@ -16,7 +16,7 @@
 
         //Image formats
         "**/*.tga": true,
-        "**/*.png": true,       
+        "**/*.png": true,
         "**/*.jpeg": true,
         "**/*.jpg": true,
         "**/*.tif": true,
@@ -25,27 +25,46 @@
         "**/*.exr": true,
         "**/*.psd": true,
         "**/*.psb": true,
+        "**/*.gif": true,
+        "**/*.bmp": true,
+        "**/*.iff": true,
+        "**/*.pict": true,
 
         //Font formats
         "**/*.ttf": true,
         "**/*.otf": true,
 
-        //Video format
+        //Video formats
+        "**/*.asf": true,
+        "**/*.avi": true,
+        "**/*.dv": true,
+        "**/*.m4v": true,
         "**/*.mov": true,
         "**/*.mp4": true,
+        "**/*.mpg": true,
+        "**/*.mpeg": true,
+        "**/*.ogv": true,
+        "**/*.vp8": true,
         "**/*.webm": true,
+        "**/*.wmv": true,
+
+        //Audio formats
+        "**/*.wav": true,
+        "**/*.ogg": true,
+        "**/*.mp3": true,
+        "**/*.aif": true,
 
         //Unity Internal
         "**/*.cubemap": true,
-        "**/*.renderTexture": true,   
+        "**/*.renderTexture": true,
         "**/*.unity": true,
         "**/*.unityproj": true,
         "**/*.mat": true,
         "**/*.controller": true,
         "**/*.anim": true,
-
-
         "**/*.prefab": true,
+        "**/*.vfx": true,
+        "**/*.shadergraph": true,
         "**/Library": true,
         "**/ProjectSettings": true,
         "**/Temp": true
