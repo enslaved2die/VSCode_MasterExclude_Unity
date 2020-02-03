@@ -1,0 +1,53 @@
+{    
+    "files.exclude": {
+
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/*.meta": true,
+        "**/*.*.meta": true,
+        "**/*.orig": true,
+
+        //Mesh formats
+        "**/*.fbx": true,
+        "**/*.FBX": true,
+        "**/*.obj": true,
+        "**/*.OBJ": true,
+        "**/*.*blend": true,
+
+        //Image formats
+        "**/*.tga": true,
+        "**/*.png": true,       
+        "**/*.jpeg": true,
+        "**/*.jpg": true,
+        "**/*.tif": true,
+        "**/*.tiff": true,
+        "**/*.hdr": true,
+        "**/*.exr": true,
+        "**/*.psd": true,
+        "**/*.psb": true,
+
+        //Font formats
+        "**/*.ttf": true,
+        "**/*.otf": true,
+
+        //Video format
+        "**/*.mov": true,
+        "**/*.mp4": true,
+        "**/*.webm": true,
+
+        //Unity Internal
+        "**/*.cubemap": true,
+        "**/*.renderTexture": true,   
+        "**/*.unity": true,
+        "**/*.unityproj": true,
+        "**/*.mat": true,
+        "**/*.controller": true,
+        "**/*.anim": true,
+
+
+        "**/*.prefab": true,
+        "**/Library": true,
+        "**/ProjectSettings": true,
+        "**/Temp": true
+    }
+}
